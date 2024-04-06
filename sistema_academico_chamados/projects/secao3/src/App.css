@@ -36,25 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-#d1 {
-  color: red;
-}
-
-.block{
-  background-color: #282c34e0;
-  margin: auto;
-  margin-top: 20px;
-  max-width: 50%;
-  min-width: 20%;
-  color: rgb(255, 255, 255);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-}
-
-.block:hover{
-  outline: 1px solid turquoise;
-}
-
