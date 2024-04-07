@@ -1,0 +1,11 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centered_list{
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  outline: 1px solid lightgray;
+}
