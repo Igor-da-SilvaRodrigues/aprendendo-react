@@ -1,21 +1,3 @@
-/*
-// components
-import FirstComponent from "./components/FirstComponent"
-
-// styles / CSS
-import './App.css'
-
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello world!</h1>
-      <FirstComponent/>
-    </div>
-  )
-}
-
-export default App
-*/
 import React from 'react';
 import {
   MDBBtn,
@@ -39,67 +21,25 @@ function App() {
         <MDBCol md='6' className='text-center text-md-start d-flex flex-column justify-content-center'>
 
           <h1 className="my-5 display-3 fw-bold ls-tight px-3" style={{color: 'hsl(218, 81%, 95%)'}}>
-            The best offer <br />
-            <span style={{color: 'hsl(218, 81%, 75%)'}}>for your business</span>
+            SAC <br />
+            <span style={{color: 'hsl(218, 81%, 75%)'}}>Sistema Acadêmico de Chamados - CEFET/RJ</span>
           </h1>
-
-          <p className='px-3' style={{color: 'hsl(218, 81%, 85%)'}}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Eveniet, itaque accusantium odio, soluta, corrupti aliquam
-            quibusdam tempora at cupiditate quis eum maiores libero
-            veritatis? Dicta facilis sint aliquid ipsum atque?
-          </p>
 
         </MDBCol>
 
         <MDBCol md='6' className='position-relative'>
 
-          <div id="radius-shape-1" className="position-absolute rounded-circle shadow-5-strong"></div>
-          <div id="radius-shape-2" className="position-absolute shadow-5-strong"></div>
-
           <MDBCard className='my-5 bg-glass'>
             <MDBCardBody className='p-5'>
 
-              <MDBRow>
-                <MDBCol col='6'>
-                  <MDBInput wrapperClass='mb-4' label='First name' id='form1' type='text'/>
-                </MDBCol>
+              <MDBInput wrapperClass='mb-4' label='Matrícula' id='form3' type='email'/>
+              <MDBInput wrapperClass='mb-4' label='Senha' id='form4' type='password'/>
 
-                <MDBCol col='6'>
-                  <MDBInput wrapperClass='mb-4' label='Last name' id='form2' type='text'/>
-                </MDBCol>
-              </MDBRow>
-
-              <MDBInput wrapperClass='mb-4' label='Email' id='form3' type='email'/>
-              <MDBInput wrapperClass='mb-4' label='Password' id='form4' type='password'/>
-
-              <div className='d-flex justify-content-center mb-4'>
-                <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Subscribe to our newsletter' />
+              <div className='w-100 d-flex justify-content-center'>
+                <MDBBtn className='w-50 mb-4' size='lg' style={{  }}>ENTRAR</MDBBtn>
               </div>
 
-              <MDBBtn className='w-100 mb-4' size='md'>sign up</MDBBtn>
-
-              <div className="text-center">
-
-                <p>or sign up with:</p>
-
-                <MDBBtn tag='a' color='none' className='mx-3' style={{ color: '#1266f1' }}>
-                  <MDBIcon fab icon='facebook-f' size="sm"/>
-                </MDBBtn>
-
-                <MDBBtn tag='a' color='none' className='mx-3' style={{ color: '#1266f1' }}>
-                  <MDBIcon fab icon='twitter' size="sm"/>
-                </MDBBtn>
-
-                <MDBBtn tag='a' color='none' className='mx-3' style={{ color: '#1266f1' }}>
-                  <MDBIcon fab icon='google' size="sm"/>
-                </MDBBtn>
-
-                <MDBBtn tag='a' color='none' className='mx-3' style={{ color: '#1266f1' }}>
-                  <MDBIcon fab icon='github' size="sm"/>
-                </MDBBtn>
-
-              </div>
+              <p>Esqueci minha senha</p>
 
             </MDBCardBody>
           </MDBCard>
@@ -107,6 +47,8 @@ function App() {
         </MDBCol>
 
       </MDBRow>
+
+      <img id="logo-cefet" src="./logo-cefet.png" alt="" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', opacity: '0.3', height: "66%", pointerEvents: 'none' }} />
 
     </MDBContainer>
   );
